@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: myConsumer
+
+  registry:
+    protocol: zookeeper
+    address: 192.168.118.129:2181
+
+server:
+  port: 8082
+

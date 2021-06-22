@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: myProvider
+
+  registry:
+    protocol: zookeeper
+    address: 192.168.118.129:2181
+
+  protocol:
+    name: dubbo
+    port: 20881
+
+
